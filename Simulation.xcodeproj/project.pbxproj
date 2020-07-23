@@ -7,16 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E345B96C24C16DA9003A1B7F /* Airplane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B96B24C16DA9003A1B7F /* Airplane.mp3 */; };
+		E345B96E24C16DB4003A1B7F /* Airplane White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B96D24C16DB4003A1B7F /* Airplane White Noise.mp3 */; };
+		E345B97624C1967E003A1B7F /* Forest White Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B96F24C1967D003A1B7F /* Forest White Noise.mp3 */; };
+		E345B97724C1967E003A1B7F /* car.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97024C1967D003A1B7F /* car.mp3 */; };
+		E345B97824C1967E003A1B7F /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97124C1967D003A1B7F /* waterfall.mp3 */; };
+		E345B97924C1967E003A1B7F /* barFinal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97224C1967D003A1B7F /* barFinal.mp3 */; };
+		E345B97A24C1967E003A1B7F /* lake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97324C1967E003A1B7F /* lake.mp3 */; };
+		E345B97B24C1967E003A1B7F /* café.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97424C1967E003A1B7F /* café.mp3 */; };
+		E345B97C24C1967E003A1B7F /* campfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E345B97524C1967E003A1B7F /* campfire.mp3 */; };
+		E345B97E24C19B65003A1B7F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345B97D24C19B65003A1B7F /* CollectionViewCell.swift */; };
+		E345B98024C19C62003A1B7F /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E345B97F24C19C62003A1B7F /* place.swift */; };
 		E35FC4D724C0564C00A8E7FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FC4D624C0564C00A8E7FD /* AppDelegate.swift */; };
 		E35FC4D924C0564C00A8E7FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FC4D824C0564C00A8E7FD /* SceneDelegate.swift */; };
 		E35FC4DB24C0564C00A8E7FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35FC4DA24C0564C00A8E7FD /* ViewController.swift */; };
 		E35FC4DE24C0564C00A8E7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FC4DC24C0564C00A8E7FD /* Main.storyboard */; };
 		E35FC4E024C0565600A8E7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35FC4DF24C0565600A8E7FD /* Assets.xcassets */; };
 		E35FC4E324C0565600A8E7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35FC4E124C0565600A8E7FD /* LaunchScreen.storyboard */; };
+		E35FC4EB24C056C500A8E7FD /* Train-Coast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E35FC4EA24C056C500A8E7FD /* Train-Coast.mp3 */; };
+		E385058024C29947001E7E31 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385057F24C29947001E7E31 /* DetailViewController.swift */; };
+		E385058224C29987001E7E31 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385058124C29987001E7E31 /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E35FC4D324C0564C00A8E7FD /* Simulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E345B96B24C16DA9003A1B7F /* Airplane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Airplane.mp3; sourceTree = "<group>"; };
+		E345B96D24C16DB4003A1B7F /* Airplane White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Airplane White Noise.mp3"; sourceTree = "<group>"; };
+		E345B96F24C1967D003A1B7F /* Forest White Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Forest White Noise.mp3"; sourceTree = "<group>"; };
+		E345B97024C1967D003A1B7F /* car.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = car.mp3; sourceTree = "<group>"; };
+		E345B97124C1967D003A1B7F /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		E345B97224C1967D003A1B7F /* barFinal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = barFinal.mp3; sourceTree = "<group>"; };
+		E345B97324C1967E003A1B7F /* lake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lake.mp3; sourceTree = "<group>"; };
+		E345B97424C1967E003A1B7F /* café.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "café.mp3"; path = "../café.mp3"; sourceTree = "<group>"; };
+		E345B97524C1967E003A1B7F /* campfire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = campfire.mp3; sourceTree = "<group>"; };
+		E345B97D24C19B65003A1B7F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E345B97F24C19C62003A1B7F /* place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
+		E35FC4D324C0564C00A8E7FD /* Virtual Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Space.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35FC4D624C0564C00A8E7FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35FC4D824C0564C00A8E7FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E35FC4DA24C0564C00A8E7FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +49,9 @@
 		E35FC4DF24C0565600A8E7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35FC4E224C0565600A8E7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35FC4E424C0565600A8E7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35FC4EA24C056C500A8E7FD /* Train-Coast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Train-Coast.mp3"; sourceTree = "<group>"; };
+		E385057F24C29947001E7E31 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E385058124C29987001E7E31 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E337C5A124C9A1470055A327 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				E35FC4EA24C056C500A8E7FD /* Train-Coast.mp3 */,
+				E345B96B24C16DA9003A1B7F /* Airplane.mp3 */,
+				E345B96D24C16DB4003A1B7F /* Airplane White Noise.mp3 */,
+				E345B97224C1967D003A1B7F /* barFinal.mp3 */,
+				E345B97424C1967E003A1B7F /* café.mp3 */,
+				E345B97524C1967E003A1B7F /* campfire.mp3 */,
+				E345B97024C1967D003A1B7F /* car.mp3 */,
+				E345B96F24C1967D003A1B7F /* Forest White Noise.mp3 */,
+				E345B97324C1967E003A1B7F /* lake.mp3 */,
+				E345B97124C1967D003A1B7F /* waterfall.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		E337C5A224C9A17B0055A327 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E35FC4DA24C0564C00A8E7FD /* ViewController.swift */,
+				E385057F24C29947001E7E31 /* DetailViewController.swift */,
+				E345B97D24C19B65003A1B7F /* CollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E337C5A324C9A1B90055A327 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E35FC4DC24C0564C00A8E7FD /* Main.storyboard */,
+				E35FC4E124C0565600A8E7FD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E337C5A524C9A1E40055A327 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E345B97F24C19C62003A1B7F /* place.swift */,
+				E385058124C29987001E7E31 /* K.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E35FC4CA24C0564C00A8E7FD = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +121,7 @@
 		E35FC4D424C0564C00A8E7FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E35FC4D324C0564C00A8E7FD /* Simulation.app */,
+				E35FC4D324C0564C00A8E7FD /* Virtual Space.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +129,13 @@
 		E35FC4D524C0564C00A8E7FD /* Simulation */ = {
 			isa = PBXGroup;
 			children = (
+				E337C5A524C9A1E40055A327 /* Model */,
+				E337C5A324C9A1B90055A327 /* View */,
+				E337C5A224C9A17B0055A327 /* Controller */,
+				E337C5A124C9A1470055A327 /* Songs */,
 				E35FC4D624C0564C00A8E7FD /* AppDelegate.swift */,
 				E35FC4D824C0564C00A8E7FD /* SceneDelegate.swift */,
-				E35FC4DA24C0564C00A8E7FD /* ViewController.swift */,
-				E35FC4DC24C0564C00A8E7FD /* Main.storyboard */,
 				E35FC4DF24C0565600A8E7FD /* Assets.xcassets */,
-				E35FC4E124C0565600A8E7FD /* LaunchScreen.storyboard */,
 				E35FC4E424C0565600A8E7FD /* Info.plist */,
 			);
 			path = Simulation;
@@ -84,7 +158,7 @@
 			);
 			name = Simulation;
 			productName = Simulation;
-			productReference = E35FC4D324C0564C00A8E7FD /* Simulation.app */;
+			productReference = E35FC4D324C0564C00A8E7FD /* Virtual Space.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +199,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E345B97A24C1967E003A1B7F /* lake.mp3 in Resources */,
+				E345B97624C1967E003A1B7F /* Forest White Noise.mp3 in Resources */,
+				E345B97924C1967E003A1B7F /* barFinal.mp3 in Resources */,
 				E35FC4E324C0565600A8E7FD /* LaunchScreen.storyboard in Resources */,
 				E35FC4E024C0565600A8E7FD /* Assets.xcassets in Resources */,
+				E345B97724C1967E003A1B7F /* car.mp3 in Resources */,
+				E35FC4EB24C056C500A8E7FD /* Train-Coast.mp3 in Resources */,
+				E345B97B24C1967E003A1B7F /* café.mp3 in Resources */,
+				E345B97824C1967E003A1B7F /* waterfall.mp3 in Resources */,
+				E345B97C24C1967E003A1B7F /* campfire.mp3 in Resources */,
+				E345B96E24C16DB4003A1B7F /* Airplane White Noise.mp3 in Resources */,
 				E35FC4DE24C0564C00A8E7FD /* Main.storyboard in Resources */,
+				E345B96C24C16DA9003A1B7F /* Airplane.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +223,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35FC4DB24C0564C00A8E7FD /* ViewController.swift in Sources */,
+				E385058224C29987001E7E31 /* K.swift in Sources */,
 				E35FC4D724C0564C00A8E7FD /* AppDelegate.swift in Sources */,
+				E345B97E24C19B65003A1B7F /* CollectionViewCell.swift in Sources */,
+				E385058024C29947001E7E31 /* DetailViewController.swift in Sources */,
+				E345B98024C19C62003A1B7F /* place.swift in Sources */,
 				E35FC4D924C0564C00A8E7FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtistSamyak.Simulation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Virtual Space";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +398,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ArtistSamyak.Simulation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Virtual Space";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

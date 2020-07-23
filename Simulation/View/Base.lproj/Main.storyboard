@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Simulation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4MW-o0-MFy">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7W1-Bv-mo0">
+                                    <size key="itemSize" width="414" height="510"/>
+                                    <size key="estimatedItemSize" width="414" height="510"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" reuseIdentifier="cell" id="phQ-Es-7R2" customClass="CollectionViewCell" customModule="Simulation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="510"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dRT-Pl-5bX">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="510"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Airplane" translatesAutoresizingMaskIntoConstraints="NO" id="Mcw-Ed-Wz3">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="510"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bust Flight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGv-1t-skY">
+                                                    <rect key="frame" x="165" y="468" width="84.5" height="34"/>
+                                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="qGv-1t-skY" secondAttribute="bottom" constant="8" id="1Nt-fc-UOu"/>
+                                                <constraint firstItem="qGv-1t-skY" firstAttribute="centerX" secondItem="dRT-Pl-5bX" secondAttribute="centerX" id="g6A-9b-Pcz"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="414" height="510"/>
+                                        <connections>
+                                            <outlet property="placeDesc" destination="qGv-1t-skY" id="WpN-zZ-1t9"/>
+                                            <outlet property="placeImage" destination="Mcw-Ed-Wz3" id="nS3-Rr-lrU"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="kkZ-fP-CvA"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="78p-I4-cGN"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="4MW-o0-MFy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ODx-vn-4Kq"/>
+                            <constraint firstItem="4MW-o0-MFy" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RBq-Zr-RiL"/>
+                            <constraint firstAttribute="bottom" secondItem="4MW-o0-MFy" secondAttribute="bottom" id="YTt-EN-LHg"/>
+                            <constraint firstItem="4MW-o0-MFy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bWG-Di-Oa9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="colView" destination="4MW-o0-MFy" id="icj-v9-AVJ"/>
+                        <segue destination="azw-j6-XBr" kind="presentation" identifier="to_detail" modalPresentationStyle="fullScreen" id="Tp9-ea-7rh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="tci-IY-J6S">
+            <objects>
+                <viewController id="azw-j6-XBr" customClass="DetailViewController" customModule="Simulation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NnK-45-OHl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-PB-DzR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dm4-Ft-Lg8">
+                                <rect key="frame" x="20" y="44" width="48" height="81"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="57"/>
+                                <state key="normal" title="&lt; ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="azw-j6-XBr" eventType="touchUpInside" id="M4L-o2-uql"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ee6-PB-DzR" secondAttribute="bottom" id="2gj-Aj-SFP"/>
+                            <constraint firstItem="Ee6-PB-DzR" firstAttribute="leading" secondItem="98G-P5-cpI" secondAttribute="leading" id="HAL-TI-ZA0"/>
+                            <constraint firstItem="98G-P5-cpI" firstAttribute="trailing" secondItem="Dm4-Ft-Lg8" secondAttribute="trailing" constant="346" id="J0z-7C-Zk0"/>
+                            <constraint firstItem="Ee6-PB-DzR" firstAttribute="top" secondItem="NnK-45-OHl" secondAttribute="top" id="Pem-7p-9RP"/>
+                            <constraint firstItem="Ee6-PB-DzR" firstAttribute="trailing" secondItem="98G-P5-cpI" secondAttribute="trailing" id="gnH-SZ-gtv"/>
+                            <constraint firstItem="Dm4-Ft-Lg8" firstAttribute="top" secondItem="98G-P5-cpI" secondAttribute="top" id="nXz-Ks-gRb"/>
+                            <constraint firstItem="Dm4-Ft-Lg8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NnK-45-OHl" secondAttribute="leadingMargin" id="nYY-Ew-EW5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="98G-P5-cpI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RwB-j5-v0F"/>
+                    <connections>
+                        <outlet property="image" destination="Ee6-PB-DzR" id="eFS-bp-C6q"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="to_main" modalPresentationStyle="fullScreen" id="2M1-pU-xhi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Hn-JX-rvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1085.5072463768117" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Airplane" width="900" height="1200"/>
+        <image name="bar" width="806" height="1340"/>
+    </resources>
+</document>
